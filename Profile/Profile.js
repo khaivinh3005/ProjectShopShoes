@@ -11,7 +11,7 @@ const callAPI = () => {
     headers: config,
   })
     .then((response) => {
-      console.log('response : ', response);
+      console.log('response hihi: ', response);
     })
     .catch((error) => {});
 };
